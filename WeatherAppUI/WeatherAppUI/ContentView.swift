@@ -42,8 +42,8 @@ struct ContentView: View {
         DayForecastItem(
             day: "TODAY",
             image: "sun.max",
-            low_temperature: 66,
-            high_temperature: 72
+            low_temperature: 59,
+            high_temperature: 73
         ), DayForecastItem(
             day: "Wed",
             image: "sun.max",
@@ -92,13 +92,13 @@ struct ContentView: View {
                         Text("Chapel Hill")
                             .foregroundColor(.white)
                             .font(.largeTitle)
-                        Text(" " + "55" + "°")
+                        Text(" " + "72" + "°")
                             .foregroundColor(.white)
                             .font(.system(size: 90, weight: .thin))
                         Text("Sunny")
                             .foregroundColor(.white)
                             .font(.system(size: 20))
-                        Text(" H:56°" + " " + "L:48°")
+                        Text(" H:73°" + " " + "L:59°")
                             .foregroundColor(.white)
                             .font(.system(size: 20))
                     }
